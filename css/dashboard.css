@@ -1,0 +1,13 @@
+.sidebar {
+  min-height: 100%;
+}
+.page-content {
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    display: none;
+  }
+  
+}
