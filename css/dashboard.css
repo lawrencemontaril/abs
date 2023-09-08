@@ -1,3 +1,22 @@
+.fs-300 {
+  font-size: clamp(1.00rem, calc(0.96rem + 0.22vw), 1.13rem) !important;
+}
+.fs-400 {
+  font-size: clamp(1.20rem, calc(1.10rem + 0.52vw), 1.50rem) !important;
+}
+.fs-500 {
+  font-size: clamp(1.44rem, calc(1.25rem + 0.97vw), 2.00rem) !important;
+}
+.fs-600 {
+  font-size: clamp(1.73rem, calc(1.40rem + 1.63vw), 2.66rem) !important;
+}
+.fs-700 {
+  font-size: clamp(2.07rem, calc(1.56rem + 2.57vw), 3.55rem) !important;
+}
+.fs-800 {
+  font-size: clamp(2.49rem, calc(1.71rem + 3.91vw), 4.74rem) !important;
+}
+
 .sidebar {
   min-height: 100%;
 }
@@ -5,9 +24,9 @@
   min-height: 100vh;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .sidebar {
     display: none;
   }
   
-}
+} */
