@@ -1,0 +1,38 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: scroll;
+  margin: 0;
+}
+
+.wrapper {
+  align-items: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.main {
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 384px;
+  overflow: hidden;
+  transition: all 0.35s ease-in-out;
+  width: 100%;
+}
+
+#sidebar {
+  max-width: 256px;
+  min-width: 256px;
+  transition: ease-in all 200ms;
+}
+
+#sidebar.collapsed {
+  margin-left: -256px;
+  transition: ease-out all 200ms;
+}

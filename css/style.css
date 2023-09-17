@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --bs-body-font-family: "Inter";
+}
+
+
+
+.fs-200 {
+  font-size: clamp(0.49rem, calc(0.33rem + 0.44vw), 0.72rem);
+}
+.fs-300 {
+  font-size: clamp(0.66rem, calc(0.49rem + 0.47vw), 0.90rem);
+}
+
+.fs-400 {
+  font-size: clamp(0.88rem, calc(0.70rem + 0.49vw), 1.13rem);
+}
+.fs-500 {
+  font-size: clamp(1.17rem, calc(1.00rem + 0.47vw), 1.41rem);
+}
+.fs-600 {
+  font-size: clamp(1.56rem, calc(1.41rem + 0.39vw), 1.76rem);
+}
+.fs-700 {
+  font-size: clamp(2.07rem, calc(1.99rem + 0.24vw), 2.20rem);
+}
+.fs-800 {
+  font-size: clamp(2.75rem, calc(2.77rem + -0.03vw), 2.76rem);
+}
+.fs-900 {
+  font-size: clamp(3.43rem, calc(3.86rem + -0.48vw), 3.68rem);
+}
+
+.carousel-item {
+  background-color: #212529;
+}
+.carousel-item img {
+  height: 512px;
+  opacity: 0.5;
+}
+
+.carousel-caption {
+  top:0;
+  bottom:0;
+}
+
+.vh-25 {
+  height: 25vh !important;
+}
+
+.vh-50 {
+  height: 50vh !important;
+}
+
+.vh-75 {
+  height: 75vh !important;
+}
+
+.min-vh-25 {
+  min-height: 25vh !important;
+}
+
+.min-vh-50 {
+  min-height: 50vh !important;
+}
+
+.min-vh-75 {
+  min-height: 75vh !important;
+}
